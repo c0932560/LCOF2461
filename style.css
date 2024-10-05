@@ -37,3 +37,20 @@ main{
 main p{
     text-align: center;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.65em;
+    clear: left;
+    padding: 1% 0% 1% 0%;
+    background-color:#68d9d6;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
