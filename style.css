@@ -1,19 +1,39 @@
+body, header, nav, main, footer, img, h1, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 body{
     background-color: #fff;
 }
-header{
-    float:left;
-    width: 25%;
+header {
+    text-align: center;
+    font-size: 1.5em;
+    color: #373684;
+    height: 20vh;
+
+    background-color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
 }
+header h1 {
+    font-family: "DM Serif Display", serif;
+    margin: 0;
+}
+/*
 nav{
-    float: right;
+    float: center;
     margin: 1em 3em 0 0;
-    width: 70%;
+    background-color: rgb(132, 64, 242);
+
 }
 nav ul{
     list-style-type: none;
     margin:0;
-    text-align: right;
+    text-align: center;
+    
 }
 nav li{
     display: inline;
@@ -21,16 +41,89 @@ nav li{
 }
 nav li a{
     display: inline-block;
-    color:#68d9d6;
+    color:purple;
     text-align: center;
     padding: 0em 1em;
     text-decoration: none;
+}
+*/
+
+nav {
+    display: flex; /* Enables flex layout for nav */
+    justify-content: space-between; /* Pushes logo to left and links to right */
+    align-items: center; /* Centers items vertically */
+    padding: 5px 80px; /* Adds padding to the left and right */
+    background: linear-gradient(to right, #4d4ba8, #5b547e, #e1579f );
+    
+}
+
+
+
+/* Navigation list styling */
+nav ul {
+    list-style-type: none; /* Removes default list styling */
+    display: flex; /* Enables flex layout for list items */
+    gap: 5px; /* Adds space between links */
+    justify-content: space-between; /* Distributes space between links */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+
+}
+
+nav li {
+    display: block;
+    display: inline; /* Keeps list items in a line */
+    margin: 0 10px; /* Adds horizontal margin to each button */
+    
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Removes underline from links */
+    padding: 10px 20px; /* Padding for clickable area */
+    font-size: 1.1em; /* Font size */
+    font-family: 'Poppins', sans-serif; /* Change to Poppins for a cute look */
+    font-weight: 600; /* Makes the text bold */
+
+    display: block; /* Makes the entire block clickable */
+
+    font-size: 1.1em; /* Font size */
+    font-family: 'Poppins', sans-serif; /* Cute font */
+    font-weight: 600; /* Bold text */
+
+    border-radius: 5px; /* Rounds corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Optional hover effect */
+nav a:hover {
+    background-color: #feacb0; /* Darker background on hover */
+    transform: translateY(-3px); /* Lift effect on hover */
+}
+/* Logo styling */
+
+/*Logo*/
+.logo {
+    height: 50px; /* Adjust logo size as needed */
+    border-radius: 5px; /* Rounds link background corners */
+}
+
+/* Logo styling */
+.logo {
+    height: 50px; /* Set the height of the logo */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for logo */
+.logo:hover {
+    transform: scale(1.1) rotate(5deg); /* Slightly enlarge and rotate the logo */
+    box-shadow: 0 4px 15px rgba(211, 81, 162, 0.3); /* Adds a shadow effect */
 }
 main{
     clear:both;
     width: 100%;
     height: 400px;
-    background-color: #DAFCF9;
+    background-color: #fef8f8;
     padding: 2%;
 
 }
@@ -47,10 +140,11 @@ footer {
     font-size: 0.65em;
     clear: left;
     padding: 1% 0% 1% 0%;
-    background-color:#68d9d6;
+    background: linear-gradient(to right, #4d4ba8, #5b547e, #e1579f );
 }
 
 footer a {
     color: #fff;
     text-decoration: none;
 }
+
