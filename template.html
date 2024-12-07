@@ -8,46 +8,75 @@
 	<title>CloudRest</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
 
 	<div id="container">
-
-		<!-- Use the header area for the website name or logo -->
+			<!-- Use the header area for the website name or logo -->
 		<header>
-
-			<h1>CloudRest</h1>
-
+	
+			<h1>WHERE DREAMS, MEET SOFTNESS </h1>
+	
 		</header>
-		
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav id="navcolor">
-			<img src="images/logo2.png" alt="CloudRest Logo" class="logo">
-				<ul>
-					<li><a href="index.html">HOME</a></li>
-					<li><a href="shop.html">SHOP</a></li>
-					<li><a href="sweetdeals.html">SWEET DEALS</a></li>
-					<li><a href="about.html">ABOUT US</a></li>
-					<li><a href="contact.html">CONTACT US</a></li>
-				</ul>
-        </nav>
+
+		<!--Naviation bar-->
+		<nav class="navbar">
+			<div class="logo">
+				<img src="images/logo2.png" alt="Logo" class="logo-img">
+			</div>
+			<div class="menu-toggle" id="mobile-menu">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+			<ul class="nav-links">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="specials.html">Specials</a></li>
+				<li><a href="media.html">Media</a></li>
+				<li><a href="training.html">Training</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="team.html">Our Team</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="faqs.html">FAQs</a></li>
+			</ul>
+		</nav>
 		
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
-            
-            
+			<div class="container">
+				<div class="content-wrapper"> <!-- Wrapper for content and image -->
+					<div class="content"> <!-- Left content section (40%) -->
+						<div class="divider"></div> <!-- Divider ABOVE the Content -->
+						<h2>Welcome to CloudRest</h2>
+						<p>Your Comfort is Our Priority</p>
+						<div class="divider"></div> <!-- Divider BELOW the Content -->
+					</div>
+					<div class="image"> <!-- Right image section (60%) -->
+						<img src="images/main.jpg" alt="CloudRest Image">
+					</div>
+				</div>
+			</div>
+		
+			<div class="second">
+				<p>This is second div</p>
+				<p>This is second div</p>
+			</div>
+		
+			<div class="third">
+				<p>This is third div</p>
+			</div>
 		</main>
 		
 		<!-- Use the footer area to add webpage footer content -->
 		<footer>
 			<p> Copyright 2024. All Rights Reserved.</p>
+			
 			<p><a href="mailto:cloudrest@lambton.ca">CloudRest@lambton.ca</a></p>
 		</footer>
 	
 	</div>
-	
+	<script src="scripts/script.js"></script>
 </body>
 </html>

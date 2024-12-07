@@ -8,49 +8,120 @@
 	<title>CloudRest</title>
 	<meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
 	<div id="container">
-
-		<!-- Use the header area for the website name or logo -->
+			<!-- Use the header area for the website name or logo -->
 		<header>
-
-			<h1>CloudRest</h1>
-
+	
+			<h1>OUR GIFT TO YOU: ADD A COMPLIMETARY MONOGRAM </h1>
+	
 		</header>
-		
-		<!-- Use the nav area to add hyperlinks to other pages within the website -->
-		<nav id="navcolor">
-			<img src="images/logo2.png" alt="CloudRest Logo" class="logo">
-				<ul>
+	<!--Naviation bar-->
+			<nav class="navbar">
+				<div class="logo">
+					<img src="images/logo2.png" alt="Logo" class="logo-img">
+				</div>
+				<div class="menu-toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+				<ul class="nav-links">
 					<li><a href="index.html">Home</a></li>
-					<li> <a href="about.html">About</a></li>
-					<li><a href="team.html">Our Team</a></li>
 					<li><a href="specials.html">Specials</a></li>
-					<li><a href="training.html">Training</a></li>
 					<li><a href="media.html">Media</a></li>
-					<li><a href="faqs.html">FAQs</a></li>
+					<li><a href="training.html">Training</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="team.html">Our Team</a></li>
 					<li><a href="contact.html">Contact</a></li>
+					<li><a href="faqs.html">FAQs</a></li>
 				</ul>
-        </nav>
+			</nav>
+
+		
+
 		
 		<!-- Use the main area to add the main content of the webpage -->
 		<main>
-            
-            
+			<div class="container">
+				<div class="content-wrapper">
+					<!-- Wrapper for content and image -->
+					<div class="content">
+						<!-- Left content section -->
+						<div class="divider"></div> <!-- Divider ABOVE the Content -->
+			
+						<div class="inner-container">
+							<h2 class="engravers-heading">Welcome to CloudRest</h2>
+							<p class="priority-text">Your Comfort is Our Priority</p>
+							<button class="shop-now-btn">Shop Now</button>
+						</div>
+			
+						<div class="divider"></div> <!-- Divider BELOW the Content -->
+					</div>
+					<div class="image">
+						<!-- Right image section -->
+						<img src="images/main.jpg" alt="CloudRest Image">
+					</div>
+				</div>
+			</div>
+			
+			
+		
+			<!-- Container 2 -->
+			<div class="container2">
+				<div class="image">
+					<img src="images/bundle.jpg" alt="Bundled Products">
+				</div>
+				<div class="content">
+					<h1 class="section-heading">Best Sellers, Now Bundled</h1>
+					<p class="section-text">Our customized essentials for every bed, bundled for savings.</p>
+					<button class="shop-now-btn">Shop Now</button>
+				</div>
+			</div>
+		
+    <!-- Third Section -->
+	<div class="container3">
+        <div class="nav-grid">
+            <a href="custompillows.html" class="nav-item" style="background-image: url('images/custom-pillows.jpg');">
+                <div class="text-overlay">
+                    <h3>Custom Made Pillows</h3>
+                    <p>Get the perfect pillow designed just for you.</p>
+                </div>
+            </a>
+            <a href="specials.html" class="nav-item" style="background-image: url('images/special-deals.jpg');">
+                <div class="text-overlay">
+                    <h3>Special Deals</h3>
+                    <p>Check out our latest discounts and seasonal offers.</p>
+                </div>
+            </a>
+            <a href="gifts.html" class="nav-item" style="background-image: url('images/gifts.jpg');">
+                <div class="text-overlay">
+                    <h3>Gifts</h3>
+                    <p>Find the perfect gift for your loved ones.</p>
+                </div>
+            </a>
+        </div>
+    </div>
 		</main>
 		
 		<!-- Use the footer area to add webpage footer content -->
-		<footer>
-			<p> Copyright 2024. All Rights Reserved.</p>
-			<p><a href="mailto:cloudrest@lambton.ca">CloudRest@lambton.ca</a></p>
-		</footer>
+        <!-- Divider above footer -->
+        <div id="footer-divider"></div>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>&copy; 2024 CloudRest. All Rights Reserved.</p>
+            <p><a href="mailto:cloudrest@lambton.ca">Contact Us: cloudrest@lambton.ca</a></p>
+			<p>Gurpreet Singh      C0932560</p>
+            <p>Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a> | <a href="#">Twitter</a></p>
+        </footer>
 	
 	</div>
-	
+<script src="scripts/script.js"></script>
 </body>
+
 </html>
